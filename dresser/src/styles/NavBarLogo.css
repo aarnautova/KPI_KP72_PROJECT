@@ -1,0 +1,47 @@
+div.logo {
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+}
+
+.logo-img{
+    height: 90%;
+    margin-top: 5%;
+}
+
+.nav_row{
+    align-items: center;
+}
+
+.nav_left{
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav_right{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav_icons{
+    margin-left : 3px;
+    margin-right : 3px;
+}
+
+.nav_icons:hover { transform: scale(1.1); }
+
+a{
+    color: black;
+}
+
+.container{
+    max-width: 100%;
+}
+
+.vdivide {
+    background: #e0e0e0;
+    width: 1px;
+    min-height: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
